@@ -1,9 +1,10 @@
 package config
 
 import (
-	"github.com/kintohub/utils-go/klog"
 	"os"
 	"strconv"
+
+	"github.com/kintoproj/go-utils/klog"
 )
 
 func GetString(key, fallback string) string {

@@ -2,8 +2,9 @@ package utils_test
 
 import (
 	"encoding/json"
-	"github.com/kintohub/utils-go/utils"
 	"testing"
+
+	"github.com/kintoproj/go-utils/utils"
 )
 
 func TestDeepEqual(t *testing.T) {

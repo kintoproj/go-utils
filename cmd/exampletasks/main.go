@@ -2,13 +2,14 @@ package main
 
 import (
 	"encoding/json"
-	_ "github.com/joho/godotenv/autoload"
-	"github.com/kintohub/utils-go/config"
-	"github.com/kintohub/utils-go/klog"
-	"github.com/kintohub/utils-go/task"
-	"github.com/kintohub/utils-go/task/machinery"
-	"gopkg.in/errgo.v2/fmt/errors"
 	"sync"
+
+	_ "github.com/joho/godotenv/autoload"
+	"github.com/kintoproj/go-utils/config"
+	"github.com/kintoproj/go-utils/klog"
+	"github.com/kintoproj/go-utils/task"
+	"github.com/kintoproj/go-utils/task/machinery"
+	"gopkg.in/errgo.v2/fmt/errors"
 )
 
 func main() {

@@ -1,9 +1,10 @@
 package utils_test
 
 import (
-	"github.com/kintohub/utils-go/utils"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/kintoproj/go-utils/utils"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestShortenUUID16(t *testing.T) {
