@@ -2,9 +2,10 @@ package grpc
 
 import (
 	"context"
-	"github.com/kintohub/utils-go/server"
-	"google.golang.org/grpc/metadata"
 	"strings"
+
+	"github.com/kintoproj/go-utils/server"
+	"google.golang.org/grpc/metadata"
 )
 
 func GetAuthBearerTokenFromHeader(ctx context.Context) (string, *server.Error) {

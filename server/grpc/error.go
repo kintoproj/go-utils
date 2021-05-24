@@ -2,7 +2,8 @@ package grpc
 
 import (
 	"context"
-	"github.com/kintohub/utils-go/server"
+
+	"github.com/kintoproj/go-utils/server"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog/log"
 	grpcCodes "google.golang.org/grpc/codes"

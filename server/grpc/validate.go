@@ -2,8 +2,9 @@ package grpc
 
 import (
 	"encoding/json"
+
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/kintohub/utils-go/klog"
+	"github.com/kintoproj/go-utils/klog"
 	grpcCodes "google.golang.org/grpc/codes"
 	grpcStatus "google.golang.org/grpc/status"
 )

@@ -1,12 +1,13 @@
 package machinery
 
 import (
+	"math"
+
 	"github.com/RichardKnop/machinery/v1"
 	machineryConfig "github.com/RichardKnop/machinery/v1/config"
 	"github.com/RichardKnop/machinery/v1/tasks"
-	"github.com/kintohub/utils-go/klog"
-	"github.com/kintohub/utils-go/task"
-	"math"
+	"github.com/kintoproj/go-utils/klog"
+	"github.com/kintoproj/go-utils/task"
 )
 
 type MachineryConfig struct {
