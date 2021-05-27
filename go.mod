@@ -3,7 +3,7 @@ module github.com/kintoproj/go-utils
 go 1.16
 
 require (
-	github.com/RichardKnop/machinery v1.10.5
+	github.com/RichardKnop/machinery v1.10.4
 	github.com/desertbit/timer v0.0.0-20180107155436-c41aec40b27f // indirect
 	github.com/go-ozzo/ozzo-validation/v4 v4.3.0
 	github.com/google/uuid v1.2.0
